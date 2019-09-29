@@ -1,15 +1,6 @@
 <?php
-if(isset($_GET['url'])){
-    $page = $_GET['url'];
-    if(file_exists("views/".$page.".php")){
-        $title = $page;
-    }
-    else{
-        $title = "Oops! Looks Like You Are Lost";
-    }
-}
-else{
-    $title = "Mechismu | IIT ISM DHANBAD";
-}
+require_once("./functions/Title.php");
+require_once("./functions/Navigation.php");
 ?>
-<title><?php echo $title ;?></title>
+
+      

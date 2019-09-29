@@ -1,7 +1,4 @@
 <?php
-     /* @author         Sourav Prasad
-        @Description    page for generating the views
-     */
 if(isset($_GET['url'])){
     $page = $_GET['url'];
     if(file_exists("views/".$page.".php")){
