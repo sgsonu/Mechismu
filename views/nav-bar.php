@@ -5,7 +5,7 @@
   <a class="navbar-brand" href="#">
     <img src="https://getBootStrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
   </a>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
     <?php echo Navigation::GenerateMenu($menu); ?>
   </div>
 </nav>

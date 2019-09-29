@@ -9,6 +9,6 @@ if(isset($_GET['url'])){
     }
 }
 else{
-    require_once("views/index.php");
+    require_once("views/home.php");
 }
 ?>
