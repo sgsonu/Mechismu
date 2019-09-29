@@ -9,6 +9,7 @@ if(isset($_GET['url'])){
     }
 }
 else{
+    $page = "home";
     require_once("views/home.php");
 }
 ?>
