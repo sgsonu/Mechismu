@@ -1,6 +1,6 @@
 <?php
-require_once("./functions/Title.php");
 require_once("./functions/Navigation.php");
+require_once("./functions/TextBlock.php");
 ?>
 
       
