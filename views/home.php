@@ -1,8 +1,6 @@
-<div class="container">
-    <div class="row mb-3">
-        <div class="col">
-            <?php echo TextBlock::GenerateTextBlock("Mechismu | Racing","A team of dedicated under graduate engineers who put in all their efforts and passion to achieve their one and only goal to make a performance car.","","Are You Excited!");?>
-        </div>
+<div class="container-fluid">
+    <div class="row mb-3">        
+            <?php echo TextBlock::GenerateTextBlock("Mechismu | Racing","A team of dedicated under graduate engineers who put in all their efforts and passion to achieve their one and only goal to make a performance car.","#","Are You Excited!","https://images.unsplash.com/photo-1499198116522-4a6235013d63");?>
     </div>
     <section id="sec-about" class="sec-about pt-5 pb-5">
         <div class="container">
@@ -51,7 +49,15 @@
 
 </div>
 </section>
-
+<div class="row justify-content-center text-center">
+        <div class='col-md-10 col-lg-8'>
+            <?php require("./functions/SVG.php");?>
+            <?php echo Paragraph::GenerateParagraph("Mechismu Racing is a student organization at IIT (ISM) Dhanbad, founded in 2008 with a vision to pioneer development and deployment of innovative technologies in the Indian Automobile Sector. We design, engineer and race our vehicles at SAE Collegiate Design Competitions like the Formula SAE and Baja SAE. Innovation and experimentation are the key drivers in our quest for excellence. Our achievements over the past three years stand testament to our engineering prowess. The team has always operated independently, transferring the knowledge obtained from year to year. ","Our Achievements");?>
+        </div>
+    </div>
+    <div class="container">
+    <?php echo Achievements::GenerateAchievements($achievements); ?>
+    </div>
 
 </div>
 </div>

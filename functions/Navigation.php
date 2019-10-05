@@ -4,7 +4,7 @@ $menu = array(
     'about'  => array('text'=>'About FSAE',  'url'=>'?url=about',  'icon'=>'fa fa-flag'),
     'cars'   => array('text'=>'Cars', 'url'=>'?url=cars',  'icon'=>'fa fa-car'),
     'team'   => array('text'=>'Team', 'url'=>'?url=team',  'icon'=>'fa fa-users'),
-    'sponsors' => array('text'=>'Sponsors', 'url'=>'?url=sponsors',  'icon'=>'fa fa-like'),
+    'sponsors' => array('text'=>'Sponsors', 'url'=>'?url=sponsors',  'icon'=>'fa fa-money'),
     'contact' => array('text'=>'Contact Us', 'url'=>'?url=contact',  'icon'=>'fa fa-id-card'),
   );
   class Navigation {
